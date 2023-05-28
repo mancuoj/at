@@ -51,6 +51,9 @@ devDependencies:
   '@types/jasmine':
     specifier: ~4.3.2
     version: 4.3.2
+  '@types/node':
+    specifier: ^20.2.5
+    version: 20.2.5
   autoprefixer:
     specifier: ^10.4.14
     version: 10.4.14(postcss@8.4.24)
@@ -81,6 +84,9 @@ devDependencies:
   tailwindcss:
     specifier: ^3.3.2
     version: 3.3.2(ts-node@10.9.1)
+  ts-node:
+    specifier: ^10.9.1
+    version: 10.9.1(@types/node@20.2.5)(typescript@5.0.4)
   typescript:
     specifier: ~5.0.4
     version: 5.0.4
